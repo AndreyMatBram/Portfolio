@@ -1,0 +1,54 @@
+.seeme{
+    grid-column: 15/200;
+    display: block;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: auto;
+    grid-template-rows: 20% 80%;
+    
+}
+
+.leftMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #f8f9fa;
+    width: 13.4%;
+    height: 100vh;
+    padding: 0.5vw;
+}
+
+.bottonBox {
+    display: flex;
+    justify-content: space-around;
+    grid-row: 1;
+    background-color: red;
+}
+
+.RouterOut{
+    grid-row: 2;
+    color: white;
+    background-color: #007bff;
+}
+
+.botton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 40vw;
+}
+
+.mainCanvas {
+    display: flex;   
+    height: 100%;
+    width: 100%;
+    
+}
+
+

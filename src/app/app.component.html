@@ -1,0 +1,22 @@
+<div class="mainCanvas">
+  <div class="leftMenu">
+    <h1>Hello, {{ title }}</h1>
+    <p>Congratulations! Your app is running.</p>
+  </div>
+  <div class="seeme">
+    <div class="bottonBox">
+      <div>
+        <img (click)="gotoHome()" src="" alt="Pagina Inicial" title="Pagina Inicial" class="botton"/>
+      </div>
+      <div>
+        <img (click)="gotoAbout()" src="" alt="Pagina Sobre" title="Pagina Sobre" class="botton"/>
+      </div>
+    </div>
+    <div class="RouterOut">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+
+
+
