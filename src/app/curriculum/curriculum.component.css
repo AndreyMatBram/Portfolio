@@ -1,0 +1,17 @@
+.pdfBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vw; /* Isso garante que a caixa do PDF ocupe toda a altura disponível */
+    width: 100%;  /* Isso garante que a caixa do PDF ocupe toda a largura disponível */
+}
+
+iframe {
+    border: 0;
+    width: 90%; /* Ajusta a largura para 90% do contêiner pai */
+    height: 100%; /* Ajusta a altura para 80% do contêiner pai */
+    padding-bottom: 1%;
+    padding-top: -5%;
+    scale: 0,5;
+}

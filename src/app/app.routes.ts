@@ -9,6 +9,14 @@ const routes: Routes = [
   {
     path: 'about',
     loadChildren: () => import('./about/about.module').then(m => m.AboutModule)
+  },
+  {
+    path: 'curriculum',
+    loadChildren: () => import('./curriculum/curriculum.module').then(m => m.CurriculumModule)
+  },
+  {
+    path: 'timeline',
+    loadChildren: () => import('./timeline/timeline.module').then(m => m.TimelineModule)
   }
 ];
 

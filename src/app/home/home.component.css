@@ -1,0 +1,86 @@
+
+.container {
+    background-color: transparent;
+    padding: 20px;
+    display: flex;
+    width: auto;
+    margin-top: 1.7%;
+    position: relative; /* Adicionada para que os botões possam ser posicionados em relação ao container */
+}
+
+/* Estilos para o Conteúdo */
+.content {
+    flex-grow: 1;
+    margin-right: 40%;
+}
+
+h1, h2 {
+    color: #f1f1f1;
+    font-size: 30px;
+}
+
+p {
+    color: #000000;
+    line-height: 1.6;
+    font-size: 20px;
+    background-color: #f1f1f17b;
+    border-radius: 4px;
+}
+
+/* Estilos para os Botões de Redes Sociais */
+.social-media {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px 10px;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.social-btn svg {
+    font-size: 18px;
+    min-height: 30px;
+}
+
+
+
+.social-btn.github:hover {
+    background-color: #555555d6;
+}
+
+
+.social-btn.linkedin:hover {
+    background-color: #005580d6;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .content {
+        margin-right: 0;
+    }
+
+    .social-btn {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .social-media {
+        right: 5px;
+    }
+}
